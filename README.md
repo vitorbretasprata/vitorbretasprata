@@ -1,6 +1,15 @@
 ## Vitor Bretas Prata 
 
+
 [![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-prata-a899b16b/")](https://www.linkedin.com/in/vitor-prata-a899b16b/)
+
+[![Medium Badge](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white&link=https://medium.com/@vitorbretasprata")](https://medium.com/@vitorbretasprata)
+
+[![Steam Badge](https://img.shields.io/badge/Steam-%23000000.svg?&style=for-the-badge&logo=steam&logoColor=white&link=https://steamcommunity.com/id/stthglbn/")](https://steamcommunity.com/id/stthglbn/)
+
+[![DevTo Badge](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white&link=https://dev.to/vitorbretasprata")](https://dev.to/vitorbretasprata)
+
+[![Whatsapp Badge](https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white&link=https://wa.me/5561981507994")](https://wa.me/5561981507994)
 
 Greetings, I am a software engineer passionate with learning, building things to help people, making friends and most of all, programming useful stuff (mostly useful... **mostly**). 
 
