@@ -1,5 +1,7 @@
 ## Vitor Bretas Prata 
 
+<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-prata-a899b16b/" />
+
 Greetings, I am a software engineer passionate with learning, building things to help people, making friends and most of all, programming useful stuff (mostly useful... **mostly**). 
 
 ### Work
