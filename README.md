@@ -40,8 +40,6 @@ Greetings, I am a software engineer passionate with learning, building things to
 - :coffee: Even though I am a programmer, I don't like coffe much, I prefer some water or tea :tea:
 
 
-:feelsgood: <- me when I resolve a nasty bug
-
 <!--
 **vitorbretasprata/vitorbretasprata** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
