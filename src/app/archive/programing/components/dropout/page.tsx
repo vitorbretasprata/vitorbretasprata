@@ -178,10 +178,15 @@ export default function Dropout() {
                 </code>
             </pre>
 
-            <p className="my-8">
-                Next thing we will do is add some style. For this tutorial I will use  
-                <strong><Link href="https://tailwindcss.com/" target="_blank" className="text-blue-400"> tailwind CSS</Link></strong>.                
-            </p> 
+            <div className="my-12">
+                <h3 className='text-xl mb-3'>2 - Add some CSS</h3>
+                <hr />
+
+                <p className="my-8">
+                    Next thing we will do is add some style. For this tutorial I will use  
+                    <strong><Link href="https://tailwindcss.com/" target="_blank" className="text-blue-400"> tailwind CSS</Link></strong>.   
+                </p>
+            </div> 
 
             <pre>
                 <code className="code-chunk">
@@ -215,10 +220,15 @@ export default function Dropout() {
                 </div>
             </div>
 
-            <p className="my-8">
-                So far so good, now we can add some javascript code to make it work. 
-                First let's create a function and add it on <code>onDrop</code> handler of our <code>div</code> element.
-            </p>
+            <div className="my-12">
+                <h3 className='text-xl mb-3'>3 - Add the functionality</h3>
+                <hr />
+
+                <p className="my-8">
+                    So far so good, now we can add some javascript code to make it work. 
+                    First let's create a function and add it on <code>onDrop</code> handler of our <code>div</code> element.  
+                </p>
+            </div> 
 
             <pre>
                 <code className="code-chunk">
@@ -667,7 +677,23 @@ const handleFileUpload = (files : any) => {
                 </pre>
 
                 
+                <p className="my-8">
+                    Some clarification, we need to add an <code>addEventListener</code> for <code>dragover</code> and <code>drop</code> 
+                    to prevent the default behavior of the page in case the image dragged and dropped outside of the component by accident doesn't on your screen.
+                </p>
 
+                <div className="my-12">
+                <h3 className='text-xl mb-3'>Final Thoughts</h3>
+                <hr />
+
+                <p className="my-8">
+                    For the first try this seems pretty good, however it is not complete. 
+                    We need to send the images to a server so it can be saved. 
+                    Not only that, but we can add more complexity to it like removing 
+                    unwanted images and such, but we can continue on the next part of the tutorial. 
+                    For now we did a fina job, until the next tutorial.
+                </p>
+            </div>
                 
         </main>
     );
