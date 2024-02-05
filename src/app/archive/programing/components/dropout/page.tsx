@@ -128,11 +128,11 @@ export default function Dropout() {
                 <h3 className='text-xl mb-3'>Final Product</h3>
                 <hr />
 
-                <div className="box-border max-w-[90%] rounded-lg border-b-2  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+                <div className="box-border max-w-[90%] rounded-lg   my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
                     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
                     <input type="file" className="files my-6" accept="image/*" ref={uploadFilesRef} onChange={handleFileChange} multiple />
                     <div 
-                        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+                        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
                         onDrop={handleDropImages}
                     >
                         {imagePreviews.length > 0 ? <p>{imagePreviews.length} Images</p> : '📁 Drag here!'}
@@ -191,10 +191,10 @@ export default function Dropout() {
             <pre>
                 <code className="code-chunk">
 {`
-<div className="box-border max-w-[90%] rounded-lg border-b-2 my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+<div className="box-border max-w-[90%] rounded-lg  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
     <div 
-        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
         onDrop={handleDropImages}
 
     >
@@ -210,10 +210,10 @@ export default function Dropout() {
                 For now it will look like this.
             </p>   
 
-            <div className="box-border max-w-[90%] rounded-lg border-b-2 my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+            <div className="box-border max-w-[90%] rounded-lg  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
                 <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
                 <div 
-                    className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+                    className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
                 >
 
                     📁 Drag here!
@@ -243,10 +243,10 @@ const handleDropImages = (e : DragEvent<HTMLDivElement>) => {
 }
 
 
-<div className="box-border max-w-[90%] rounded-lg border-b-2 my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+<div className="box-border max-w-[90%] rounded-lg  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
     <div 
-        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
         onDrop={handleDropImages}
     >
 
@@ -286,10 +286,10 @@ const handleFileUpload = (files : File[]) => {
     allowedFiles.forEach(showFilesPreview);
 }  
 
-<div className="box-border max-w-[90%] rounded-lg border-b-2 my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+<div className="box-border max-w-[90%] rounded-lg  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
     <div 
-        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
         onDrop={handleDropImages}
     >
 
@@ -383,10 +383,10 @@ const handleFileUpload = (files : File[]) => {
     allowedFiles.forEach(showFilesPreview);
 }  
 
-<div className="box-border max-w-[90%] rounded-lg border-b-2 my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+<div className="box-border max-w-[90%] rounded-lg  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
     <div 
-        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
         onDrop={handleDropImages}
     >
 
@@ -413,10 +413,10 @@ const handleFileUpload = (files : File[]) => {
             <pre>
                 <code className="code-chunk">
 {`
-<div className="box-border max-w-[90%] rounded-lg border-b-2  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+<div className="box-border max-w-[90%] rounded-lg   my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
     <div 
-        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
         onDrop={handleDropImages}
     >
         {imagePreviews.length > 0 ? <p>{imagePreviews.length} Images</p> : '📁 Drag here!'}
@@ -444,10 +444,10 @@ const handleFileUpload = (files : File[]) => {
 
             <p className="my-8">For now our drag upload element looks like this.</p>
 
-            <div className="box-border max-w-[90%] rounded-lg border-b-2  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+            <div className="box-border max-w-[90%] rounded-lg   my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
                     <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
                     <div 
-                        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+                        className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
                         onDrop={handleDropImages}
                     >
                         {imagePreviews.length > 0 ? <p>{imagePreviews.length} Images</p> : '📁 Drag here!'}
@@ -481,11 +481,11 @@ const handleFileUpload = (files : File[]) => {
     <h3 className='text-xl mb-3'>Final Product</h3>
     <hr />
 
-    <div className="box-border max-w-[90%] rounded-lg border-b-2  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+    <div className="box-border max-w-[90%] rounded-lg   my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
         <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
         <input type="file" className="files my-6" accept="image/*" onChange={handleFileChange} multiple />
         <div 
-            className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+            className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
             onDrop={handleDropImages}
         >
             {imagePreviews.length > 0 ? <p>{imagePreviews.length} Images</p> : '📁 Drag here!'}
@@ -645,11 +645,11 @@ const handleFileUpload = (files : any) => {
     <h3 className='text-xl mb-3'>Final Product</h3>
     <hr />
 
-    <div className="box-border max-w-[90%] rounded-lg border-b-2  my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
+    <div className="box-border max-w-[90%] rounded-lg   my-6 mx-auto p-6 shadow-md flex flex-col justify-center items-center">
         <h2 className="text-center font-bold text-xl">Upload File ✔</h2>
         <input type="file" className="files my-6" accept="image/*" ref={uploadFilesRef} onChange={handleFileChange} multiple />
         <div 
-            className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500 bg-slate-200 text-center w-full" 
+            className="rounded-md mt-6 p-6 border-dashed border-2 border-slate-500  text-center w-full" 
             onDrop={handleDropImages}
         >
             {imagePreviews.length > 0 ? <p>{imagePreviews.length} Images</p> : '📁 Drag here!'}

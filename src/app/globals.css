@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+
+  --background-secondary: rgb(244, 244, 244);
+
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+
+  --background-secondary: rgb(22, 27, 34);
+
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,10 +44,9 @@ body {
 code.code-chunk {
   display: block;
   white-space: pre-wrap;
-  background-color: #f4f4f4;
+  background-color: var(--background-secondary);
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ddd;
   overflow-x: auto;
   font-size: 14px;
   line-height: 1.4;
@@ -43,11 +59,10 @@ p {
 
 code {
   white-space: pre-wrap;
-  background-color: #f4f4f4;
+  background-color: var(--background-secondary);
   padding: 5px;
   margin: 0 5px;
   border-radius: 5px;
-  border: 1px solid #ddd;
   overflow-x: auto;
   font-size: 12px;
   line-height: 1.5;

@@ -1,6 +1,7 @@
 import './globals.css';
 
 import { Header } from '@/components/shared';
+import { Providers } from './providers/themes';
 
 export const metadata = {
   title: 'Vitor - Portfolio',
@@ -8,7 +9,7 @@ export const metadata = {
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
@@ -16,8 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )
