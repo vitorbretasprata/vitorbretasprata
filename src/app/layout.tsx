@@ -2,11 +2,17 @@ import './globals.css';
 
 import { Header } from '@/components/shared';
 import { Providers } from './providers/themes';
+import { Poppins } from "next/font/google"
 
 export const metadata = {
   title: 'Vitor - Portfolio',
   description: 'My portfolio',
 }
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '700']
+})
 
 export default function RootLayout({
   children
@@ -14,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
       <body>
         <Header />
         <Providers>

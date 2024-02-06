@@ -1,6 +1,10 @@
+'use client';
+
 import Link from "next/link";
 
 import { Dropdown } from "@/components/navigation";
+import { FaRegMoon } from "react-icons/fa";
+import { useTheme } from "next-themes";
 
 const items = [
     {
@@ -10,26 +14,36 @@ const items = [
 ];
 
 const Header = () => {
+
+    const { theme, setTheme } = useTheme();
     
     return (
         <>
-            <nav className="bg-blue-500 p-4">
-                <div className="container mx-auto flex justify-between items-center">
+            <nav className="p-4">
+                <div className="container mx-auto flex justify-between gap-16 items-center">
 
-                <Link href="#" className="text-white text-lg font-semibold">Your Logo</Link>
+                <div className="flex justify-start gap-16 items-center">
+                    <Link href="/" className="text-white text-2xl font-semibold">Portf<span className="text-blue-500">ólio</span></Link>
 
-                <div className="hidden md:flex space-x-4">
-                    <Link href="#" className="text-white">Home</Link>
-                    <Dropdown items={items} trigger={['click']}>
-                        <a 
-                            className="text-white cursor-pointer"
-                        >
-                            Archive
-                        </a>
-                    </Dropdown>
-                    <Link href="#" className="text-white">About</Link>
-                    <Link href="#" className="text-white">Contact</Link>
+                    <div className="hidden md:flex space-x-12 text-sm font-semibold">
+                        <Link href="/" className="nav-link">Home</Link>
+                        <Dropdown items={items} trigger={['click']}>
+                            <a 
+                                className="nav-link cursor-pointer"
+                            >
+                                Archive
+                            </a>
+                        </Dropdown>
+                        <Link href="#" className="nav-link">About</Link>
+                        <Link href="#" className="nav-link">Contact</Link>
+                    </div>
                 </div>
+
+                
+
+                <button className={`rounded-full transition-all shadow-md p-4`} onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
+                    <FaRegMoon />
+                </button>
 
                 <div className="md:hidden">
                     <button id="mobile-menu-toggle" className="text-white">
@@ -42,11 +56,11 @@ const Header = () => {
                 </div>
             </nav>
 
-            <div id="mobile-menu" className="md:hidden hidden bg-blue-500 p-4">
-                <Link href="#" className="text-white">Home</Link>
-                <Link href="#" className="text-white">Archive</Link>
-                <Link href="#" className="text-white">About</Link>
-                <Link href="#" className="text-white">Contact</Link>
+            <div id="mobile-menu" className="md:hidden hidden p-4">
+                <Link href="#" className="nav-link">Home</Link>
+                <Link href="#" className="nav-link">Archive</Link>
+                <Link href="#" className="nav-link">About</Link>
+                <Link href="#" className="nav-link">Contact</Link>
             </div>
         </>
     );
