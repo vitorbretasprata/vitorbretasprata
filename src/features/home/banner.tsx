@@ -1,12 +1,13 @@
 'use client';
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Banner = () => {
     
     return (
         <div>
-            <div className="m-auto flex justify-between items-center max-w-[1140px]">
+            <div className="m-auto flex justify-between items-center max-w-[1140px] my-40">
                 <div className="w-[50%]">
                     <div>
                         <h2 className="uppercase tracking-widest bg-opacity rounded-md px-3 w-fit">Vitor Prata</h2>
@@ -28,13 +29,19 @@ const Banner = () => {
                             Contact Me
                         </Link>
 
-                        <Link href={window.location.href + '/teste.pdf'} target="_blank" className="line-below">
+                        <Link href="../../public/teste.pdf" target="_blank" className="line-below">
                             Download CV
                         </Link>
                     </div>
                 </div>
-                <div>
 
+                <div>
+                    <Image 
+                        src="/20171216_183348.png"
+                        alt="Bolachinha"
+                        height={400}
+                        width={600}
+                    />
                 </div>
             </div>
         </div>
